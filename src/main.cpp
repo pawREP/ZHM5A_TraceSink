@@ -25,7 +25,7 @@ int main() {
     statusPrintLine("Connected with parent");
 
     FileLogger logger;
-    if(!logger.is_open())
+    if(!logger.isOpen())
         fatalError("Failed to initilize file logger");
     statusPrintLine("Logging to " + logger.path().generic_string() + "...\n\n");
 

@@ -21,6 +21,6 @@ public:
     FileLogger& operator=(FileLogger&&) = delete;
 
     void write(const char* data, int dataLength) const;
-    bool is_open() const;
+    bool isOpen() const;
     const std::filesystem::path& path() const;
 };

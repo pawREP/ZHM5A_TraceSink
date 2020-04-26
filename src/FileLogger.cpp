@@ -35,7 +35,7 @@ void FileLogger::write(const char* data, int dataLength) const {
     ofs.write("\n", 1);
 }
 
-bool FileLogger::is_open() const {
+bool FileLogger::isOpen() const {
     return ofs.is_open();
 }
 
